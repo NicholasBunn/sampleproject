@@ -1,12 +1,12 @@
 [project]
-name = "example_package_me"
-version = "0.0.1"
+name = "example_package_meepnic"
+version = "0.0.2"
 authors = [
   { name="Nic Bunn", email="author@example.com" },
 ]
 description = "A small example package"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.10"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
