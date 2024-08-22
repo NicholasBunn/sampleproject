@@ -6,7 +6,7 @@ on:
 
 jobs:
   name: Build distribution 📦
-    runs-on: ubuntu-latest
+  runs-on: ubuntu-latest
 
   build:
     name: Build distribution 📦
