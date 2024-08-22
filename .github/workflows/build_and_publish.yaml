@@ -32,7 +32,7 @@ jobs:
   release:
     name: >-
       Publish Python 🐍 distribution 📦 to PyPI
-    if: github.repository_owner == 'nicholasbunn' && github.ref_type == 'tag'
+    if: github.ref_type == 'tag'
     needs:
     - build
     runs-on: ubuntu-latest
