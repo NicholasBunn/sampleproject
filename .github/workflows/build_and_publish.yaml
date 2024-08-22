@@ -5,9 +5,6 @@ on:
     types: [created]
 
 jobs:
-  name: Build distribution 📦
-  runs-on: ubuntu-latest
-
   build:
     name: Build distribution 📦
     runs-on: ubuntu-latest
@@ -42,7 +39,7 @@ jobs:
     environment:
       name: testpypi
       url: https://test.pypi.org/p/example-project-meepnic
-      timeout-minutes: 5
+    timeout-minutes: 5
 
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
