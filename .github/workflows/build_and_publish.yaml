@@ -38,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: pypi
-      url: https://pypi.org/p/example-project-meepnic
+      url: https://test.pypi.org/p/example-project-meepnic
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
 
