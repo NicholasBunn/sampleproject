@@ -38,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: testpypi
-      url: https://test.pypi.org/p/example-project-meepnic
+      url: https://test.pypi.org/p/example-package-meepnic
     timeout-minutes: 5
     permissions:
       id-token: write  # IMPORTANT: mandatory for trusted publishing
