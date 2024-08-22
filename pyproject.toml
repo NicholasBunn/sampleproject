@@ -1,6 +1,6 @@
 [project]
-name = "example_package_meepnic"
-version = "0.1.10"
+name = "example-package-meepnic"
+version = "0.1.11"
 authors = [
   { name="Nic Bunn", email="author@example.com" },
 ]
